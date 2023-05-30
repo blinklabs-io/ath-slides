@@ -1,2 +1,2 @@
 # swarm-presss.github.io
-Repository to host ATH Slides deck.
+Repository to host Swarm-Press Git Pages.
