@@ -268,9 +268,11 @@ nav.navbar-fixed ul li a {
 nav.navbar-fixed .main-logo {
     color: #242424;
 }
-nav.navbar-fixed .main-logo  img{
+
+nav.navbar-fixed .main-logo img {
     max-width: 180px;
 }
+
 nav.navbar-fixed .main-logo span {
     color: #ff8000;
 }
@@ -301,6 +303,7 @@ nav .nav-link::before {
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 nav.navbar-fixed .nav-link::before {
     height: 4px;
     background: #ff8000;
@@ -313,11 +316,12 @@ nav.navbar-fixed .navbar-nav li a:hover {
     color: #ff8000;
 }
 
-nav .nav-link.active::before  {
+nav .nav-link.active::before {
     width: 65%;
     opacity: 1;
 }
-nav .nav-link:hover::before  {
+
+nav .nav-link:hover::before {
     width: 65%;
     opacity: 1;
 }
@@ -348,7 +352,7 @@ nav .navbar-nav li:last-child a {
 ================================================== */
 
 #slider {
-    background: url(../images/slider/3.jpg) no-repeat center;
+    background: url(../images/slider/swarm-hero.png) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
