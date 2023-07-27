@@ -611,78 +611,8 @@ nav .navbar-nav li:last-child a {
 /*======================================
 4. townhall CSS Start
 ========================================*/
-
-.about-img {
-    position: relative;
-}
-
-.about-img a {
-    position: absolute;
-    left: 42px;
-    bottom: 36px;
-}
-
-.video-play-button {
-    width: 32px;
-    height: 44px;
-    border-radius: 50%;
-    padding: 13px 0px 0px 10px;
-}
-
-.video-play-button:before {
-    content: "";
-    position: absolute;
-    z-index: 0;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    display: block;
-    width: 60px;
-    height: 60px;
-    background: #ff8000;
-    border-radius: 50%;
-    -webkit-animation: pulse-border 1500ms ease-out infinite;
-    animation: pulse-border 1500ms ease-out infinite;
-}
-
-.video-play-button:after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    display: block;
-    width: 60px;
-    height: 60px;
-    background: #ff8000;
-    border-radius: 50%;
-    transition: all 200ms;
-}
-
-.video-play-button:hover:after {
-    background-color: #ff8000;
-}
-
-.video-play-button img {
-    position: relative;
-    z-index: 3;
-    max-width: 100%;
-    width: auto;
-    height: auto;
-}
-
-.video-play-button span {
-    display: block;
-    position: relative;
-    z-index: 3;
-    width: 0;
-    height: 0;
-    border-left: 16px solid #fff;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
+#about {
+    background: linear-gradient(to bottom, #e6e938bb, #2f9ad8);
 }
 
 @-webkit-keyframes pulse-border {
@@ -794,7 +724,7 @@ nav .navbar-nav li:last-child a {
 5. Community events CSS start 
 ====================================*/
 #feature {
-    background: linear-gradient(to bottom, #2b9cde, #38e973bb);
+    background: linear-gradient(to bottom, #2f9ad8, #38e973bb);
     padding: 90px 0px 70px;
 }
 
