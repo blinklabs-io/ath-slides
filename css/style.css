@@ -897,7 +897,7 @@ nav .navbar-nav li:last-child a {
 ================================ */
 
 #service {
-    background: linear-gradient(to bottom, #38e973bb, #e6e938bb);
+    background: linear-gradient(to bottom, #2f9ad8, #38e973bb);
     padding: 92px 0px 69px;
 }
 
@@ -1198,8 +1198,7 @@ nav .navbar-nav li:last-child a {
 ============================== */
 
 #testimonial {
-    background: linear-gradient(to bottom, #38e973bb, white);
-    ;
+    background: linear-gradient(to bottom, #38e973bb, #e6e938bb);
 }
 
 #testimonial .section-heading {
